@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+
+    <div id="mydiv"></div>
+
+    <script type="text/babel">
+     
+ const elements=(
+    <div className="main">
+    <h1>About Us</h1>
+    <p> At Zappos.com, our pupose is simple : to live and deliver WOW.</p>
+    <p>Twenty years ago, we began as a small online retailer that only sold shoes. Today, we still shoes--as well as clothing handbags accessories and more. That "more" is providing the very best customer service, customer experience, and comapny culture. We aim to inspire the world by showing it's possible to simultaneously deliver happiness to customers, employees, vendors, shareholders, and the community in a long-term, sustainable way.</p>
+
+    <p>We hope that in the future people won't even realize we started selling shoes online, insted, they'll know Zappos as a <br/>service company that just happens to sell__</p>
+    </div>
+ ) ;
+  
+
+ const root= ReactDOM.createRoot(document.getElementById('mydiv'));
+ root.render(elements);
+
+
+    </script>
+
+  </body>
+</html>

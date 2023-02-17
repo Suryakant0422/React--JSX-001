@@ -1,0 +1,17 @@
+#mydiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  p{
+      text-align: center;
+      width: 1000px;
+      font-size: larger;
+  }
